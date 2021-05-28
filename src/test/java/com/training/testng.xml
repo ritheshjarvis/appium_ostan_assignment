@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression suite" verbose="1">
+    <test name="Smoke Test Cases Android" >
+        <classes>
+            <class name="com.training.tests.TapTest"/>
+            <class name="com.training.tests.DoubleTapTest"/>
+            <class name="com.training.tests.ScrollTest"/>
+            <class name="com.training.tests.LeftSwipeTest"/>
+            <class name="com.training.tests.LongPressTest"/>
+            <class name="com.training.tests.SliderTest"/>
+            <class name="com.training.tests.PinchZoomTest"/>
+            <class name="com.training.tests.CarouselTest"/>
+        </classes>
+    </test>
+
+</suite>
